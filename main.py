@@ -1,7 +1,7 @@
 import sys
 import panflute
 
-headers = dict()
+repeats = dict()
 
 
 def pandoc_filter(element, doc):
@@ -13,12 +13,12 @@ def pandoc_filter(element, doc):
 
     if isinstance(element, panflute.Header):
         text = panflute.stringify(element)
-        if text in headers.keys():
-            if not headers[text]:
+        if text in repeats.keys():
+            if not repeats[text]:
                 sys.stderr.write(f"Header repeated: \"{text}\"")
-                headers[text] = True
+                repeats[text] = True
         else:
-            headers[text] = False
+            repeats[text] = False
 
 
 def str_up(element, doc):

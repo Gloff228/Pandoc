@@ -1,61 +1,15 @@
-```{=html}
-<h1>
-```
-Heading level 1
-```{=html}
-</h1>
-```
-```{=html}
-<h2>
-```
-Heading level 2
-```{=html}
-</h2>
-```
-```{=html}
-<h3>
-```
-Heading level 3 **bold**
-```{=html}
-</h3>
-```
-```{=html}
-<h4>
-```
-**BolD** Heading level 4
-```{=html}
-</h4>
-```
-```{=html}
-<ul>
-```
-```{=html}
-<li>
-```
-**bold**
-```{=html}
-</li>
-```
-```{=html}
-<li>
-```
-notbold
-```{=html}
-</li>
-```
-```{=html}
-<li>
-```
-```{=html}
-</li>
-```
-```{=html}
-</ul>
-```
-```{=html}
-<p>
-```
+# HEADING LEVEL 1 REPEATED
+
+# HEADING LEVEL 1 REPEATED
+
+## HEADING LEVEL 2 REPEATED
+
+### HEADING LEVEL 3 **BOLD**
+
+#### **BolD** Heading level 4
+
+-   **bOld**
+-   not_bold
+-   *cursive **bold***
+
 Some text with **bold** and notbold words
-```{=html}
-</p>
-```
