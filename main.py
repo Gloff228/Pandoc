@@ -15,7 +15,7 @@ def pandoc_filter(element, doc):
         text = panflute.stringify(element)
         if text in repeats.keys():
             if not repeats[text]:
-                sys.stderr.write(f"Header repeated: \"{text}\"")
+                sys.stderr.write(f"Repeated: \"{text}\"")
                 repeats[text] = True
         else:
             repeats[text] = False
